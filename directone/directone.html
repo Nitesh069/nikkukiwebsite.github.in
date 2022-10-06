@@ -1,0 +1,1838 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script src="jquery-3.6.1.min.js"></script>
+    <script>
+    // $(document).ready(function(){$("#a36").hover(function(){$("#a36").css("display","none");});});
+    // $(document).ready(function(){$("#a30").hover(function(){$("#a36").css("display","block");});});
+    // $(document).ready(function(){$("#a30").hover(function(){$("#a36").fadeIn(1000);});});
+    // $(document).ready(function(){$("#a30").hover(function(){$("#a36").animate();});});
+    // $(document).ready(function(){$("#a30").hover(function(){$("#a36").animate(left:"0px");});});
+    </script>
+
+
+    <style>
+        #a14 {
+            background-color: black;
+            height: 27px;
+            /* position: fixed; */
+          
+        }
+
+        #a12 {
+            float: left;
+            transform: translateZ(12);
+        }
+
+        #a13 {
+            color: aliceblue;
+        }
+
+        .c11 {
+            color: red;
+            margin-left: 100px;
+            font-size: 15px;
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        .c12 {
+            color: rgb(216, 206, 206);
+            margin-left: 900px;
+            font-size: 15px;
+            margin-top: 1px;
+        }
+
+        .c13 {
+            color: rgb(216, 206, 206);
+            margin-left: 15px;
+            font-size: 15px;
+            margin-top: 1px;
+        }
+
+        .c14 {
+            color: rgb(216, 206, 206);
+            font-size: 15px;
+            margin-left: 15px;
+            margin-top: 1px;
+        }
+
+        #a16 {
+            /* background-color: aliceblue; */
+            float: left;
+        }
+
+        .c15 {
+            margin-left: 87px;
+            margin-top: 30px;
+        }
+
+        .c16 {
+            /* background-color: aliceblue; */
+            color: white;
+            margin-top: 40px;
+        }
+
+        .c17 {
+            color: white;
+            margin-top: 56px;
+            margin-left: 200px;
+        }
+
+        .c18 {
+            color: white;
+            margin-top: 56px;
+            margin-left: 50px;
+        }
+
+        .c19 {
+            color: white;
+            margin-top: 56px;
+            margin-left: 50px;
+        }
+
+        .c20 {
+            color: white;
+            margin-top: 56px;
+            margin-left: 50px;
+        }
+
+        .c21 {
+            color: white;
+            margin-top: 56px;
+            margin-left: 50px;
+        }
+
+        .c22 {
+            color: white;
+            margin-top: 56px;
+            margin-left: 200px;
+
+        }
+
+        .c23 {
+            font-size: small;
+            margin-top: -32px;
+        }
+
+        .c24 {
+            background-color: #ff414d;
+            color: aliceblue;
+            border-radius: 12px;
+            height: 40px;
+            width: 150px;
+        }
+
+        #a19 {
+            /* background-color: white; */
+            margin-top: 91px;
+            color: white;
+            /* margin-right:100px ; */
+            margin-left: 146px;
+            font-size: 70px;
+        }
+
+        #a20 {
+            color: black;
+            width: 55%;
+            background-color: white;
+            margin-left: 314px;
+            height: 50px;
+            border-radius: 5px;
+            margin-top: 78px;
+        }
+
+        #a21 {
+            width: 25%;
+            height: 30px;
+            margin-left: 5px;
+            font-size: 15px;
+            margin-top: 10px;
+            text-align: auto;
+        }
+
+        #a22 {
+            width: 25%;
+            height: 30px;
+            margin-left: 14px;
+            margin-top: 10px;
+            font-size: 15px;
+            text-align: auto;
+        }
+
+        input {
+            border: none;
+        }
+
+        #a24 {
+            margin-left: 120px;
+            background-color: #ff414d;
+            color: white;
+
+        }
+
+        #a25 {
+            margin-left: 20px;
+        }
+
+        #a24 {
+            background-color: #ff414d;
+            width: 185px;
+            border-radius: 5px;
+            height: 50px;
+            margin-left: 1000px;
+            margin-top: -50px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        #a29 {
+            background-color: #f0f4f7;
+            margin-top: 70px;
+        }
+
+        #a30 {
+            background-color: #f0f4f7;
+            height: 550px;
+        }
+
+        .c30 {
+            float: left;
+            /* display: flex; */
+            justify-content: center;
+            /* box-shadow: 0px 0px 9px 5px; */
+            transform: translateY(40%);
+            transition: transform .4s ease-in;
+
+        }
+
+        .c30:nth-last-of-type(even) {
+            transform: translateY(100px);
+        }
+
+        .c30.w11 {
+            transform: translateY(0px);
+        }
+        #a31:hover{
+            background-color: #ff414d;
+            color: white;
+        }
+        #a32:hover{
+            background-color: #ff414d;
+            color: white;
+        }
+        #a33:hover{
+            background-color: #ff414d;
+            color: white;
+        }
+        #a34:hover{
+            background-color: #ff414d;
+            color: white;
+        }
+        #a35:hover{
+            background-color: #ff414d;
+            color: white;
+        }
+        #a36:hover{
+            background-color: #ff414d;
+            color: white;
+        }
+        #a40:hover{
+            background-color: #ff414d;
+            color: white;
+        }
+        #a41:hover{
+            background-color: #ff414d;
+            color: white;
+        }
+        #a42:hover{
+            background-color: #ff414d;
+            color: white;
+        }
+        #a43:hover{
+            background-color: #ff414d;
+            color: white;
+        }
+        #a44:hover{
+            background-color: #ff414d;
+            color: white;
+        }
+        #a45:hover{
+            background-color: #ff414d;
+            color: white;
+        }
+        #a46:hover{
+            background-color: #ff414d;
+            color: white;
+        }
+
+        .c40 {
+            float: left;
+            /* display: flex; */
+            justify-content: center;
+            /* box-shadow: 0px 0px 9px 5px; */
+            transform: translateY(40%);
+            transition: transform 0.4s ease;
+
+        }
+
+        .c40:nth-last-of-type(even) {
+            transform: translateY(100px);
+        }
+
+        .c40.w12 {
+            transform: translateY(0px);
+        }
+
+        #a31 {
+            /* border: solid red 3px; */
+            height: 230px;
+            width: 170px;
+            margin-left: 100px;
+            margin-top: -72px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: white;
+            /* display: none; */
+        }
+
+        #a32 {
+            /* border: solid red 3px; */
+            height: 230px;
+            width: 170px;
+            margin-left: 50px;
+            margin-top: -72px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: white;
+            /* display: none; */
+        }
+
+        #a33 {
+            /* border: solid red 3px; */
+            height: 230px;
+            width: 170px;
+            margin-left: 50px;
+            margin-top: -72px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: white;
+            /* display: none; */
+        }
+
+        #a34 {
+            /* border: solid red 3px; */
+            height: 230px;
+            width: 170px;
+            margin-left: 50px;
+            margin-top: -72px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: white;
+            /* display: none; */
+        }
+
+        #a35 {
+            /* border: solid red 3px; */
+            height: 230px;
+            width: 170px;
+            margin-left: 50px;
+            margin-top: -72px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: white;
+            /* display: none; */
+        }
+
+        #a36 {
+            /* border: solid red 3px; */
+            height: 230px;
+            width: 170px;
+            margin-left: 50px;
+            margin-top: -72px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: white;
+            /* display: none; */
+        }
+
+        .c31 {
+            color: #ff414d;
+            background-color: #f0f4f7;
+        }
+
+        .c32 {
+            color: gray;
+        }
+
+
+
+
+        #a40 {
+            /* border: solid red 3px; */
+            height: 230px;
+            width: 170px;
+            margin-left: 100px;
+            margin-top: 70px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: white;
+            /* display: none; */
+        }
+
+        #a41 {
+            /* border: solid red 3px; */
+            height: 230px;
+            width: 170px;
+            margin-left: 50px;
+            margin-top: 70px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: white;
+            /* display: none; */
+        }
+
+        #a42 {
+            /* border: solid red 3px; */
+            height: 230px;
+            width: 170px;
+            margin-left: 50px;
+            margin-top: 70px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: white;
+            /* display: none; */
+        }
+
+        #a43 {
+            /* border: solid red 3px; */
+            height: 230px;
+            width: 170px;
+            margin-left: 50px;
+            margin-top: 70px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: white;
+            /* display: none; */
+        }
+
+        #a44 {
+            /* border: solid red 3px; */
+            height: 230px;
+            width: 170px;
+            margin-left: 50px;
+            margin-top: 70px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: white;
+            /* display: none; */
+        }
+
+        #a45 {
+            /* border: solid red 3px; */
+            height: 230px;
+            width: 170px;
+            margin-left: 50px;
+            margin-top: 70px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: white;
+            /* display: none; */
+        }
+
+
+        #a50 {
+            background-color: #f0f4f7;
+            height: 900px;
+            width: 100%;
+        }
+
+        #a51 {
+            text-align: center;
+            color: #ff414d;
+        }
+
+        #a52 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        #a53 {
+            /* border: solid red 2px; */
+            height: 500px;
+            background-color: white;
+        }
+
+        #a54 {
+            /* border: solid red 2px; */
+            height: 496px;
+            margin-left: 20px;
+            background-color: white;
+        }
+
+        #a55 {
+            /* border: solid red 2px; */
+            height: 496px;
+            margin-left: 20px;
+            background-color: white;
+        }
+
+        #a56 {
+            /* border: solid red 2px; */
+            margin-left: 20px;
+            height: 496px;
+            background-color: white;
+        }
+
+        .c50 {
+            float: left;
+            /* display: flex; */
+            justify-content: center;
+            /* box-shadow: 0px 0px 9px 5px; */
+            transform: translateY(40%);
+            transition: transform 0.4s ease-in;
+
+        }
+
+        .c50:nth-last-of-type(even) {
+            transform: translateY(100px);
+        }
+
+        .c50.w13 {
+            transform: translateY(0px);
+        }
+
+        .c51 {
+            color: #ff414d;
+            /* text-align: center; */
+            margin-top: 54px;
+            margin-left: 91px;
+        }
+
+        .c52 {
+            margin-left: 50px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .c53 {
+
+            color: gray;
+            margin-left: 50px;
+        }
+
+        .c54 {
+            font-size: 13px;
+            margin-left: 90px;
+
+        }
+
+        .c55 {
+            font-size: 23px;
+            margin-left: 50px;
+
+        }
+
+        #a57 {
+            background-color: #f0f4f7;
+            margin-top: 50px;
+            margin-left: 120px;
+        }
+
+
+
+        #a60 {
+            background-color: #f0f4f7;
+            height: 400px;
+            padding-left: 120px;
+        }
+
+        .c60 {
+            float: left;
+        }
+
+        #a62 {
+            background-color: rgba(255, 0, 0, 0.763);
+            width: 500px;
+            ;
+            height: 250px;
+            padding-top: 60px;
+            padding-left: 87px;
+        }
+
+        #a63 {
+            background-color: rgba(255, 0, 0, 0.763);
+            width: 329px;
+            height: 250px;
+            padding-top: 100px;
+        }
+
+        .c61 {
+            color: white;
+        }
+
+        .c62 {
+            color: white;
+        }
+
+        .c63 {
+            background-color: black;
+            width: 222px;
+            height: 50px;
+            border-radius: 5px;
+            color: white;
+        }
+
+        #a70 {
+            text-align: center;
+            background-color: #f0f4f7;
+        }
+
+        .c70 {
+            float: left;
+            /* display: flex; */
+            justify-content: center;
+            /* box-shadow: 0px 0px 9px 5px; */
+            transform: translateY(30%);
+            transition: transform 0.4s ease;
+
+        }
+
+        .c70:nth-last-of-type(even) {
+            transform: translateY(100px);
+        }
+
+        .c70.w14 {
+            transform: translateY(0px);
+        }
+
+        #a73 {
+            height: 500px;
+        }
+
+        .c71 {
+            color: #ff414d;
+            /* text-align: center; */
+            margin-top: 54px;
+            margin-left: 91px;
+        }
+
+        .c72 {
+            margin-left: 50px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .c73 {
+
+            color: gray;
+            margin-left: 50px;
+        }
+
+        .c74 {
+            font-size: 13px;
+            margin-left: 90px;
+
+        }
+
+        .c75 {
+            font-size: 23px;
+            margin-left: 50px;
+
+        }
+
+        #a71 {
+            text-align: center;
+            color: #ff414d;
+        }
+
+        #a72 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        #a74 {
+            /* border: solid red 2px; */
+            height: 500px;
+            background-color: white;
+            margin-left: 120px;
+        }
+
+        #a75 {
+            /* border: solid red 2px; */
+            height: 496px;
+            margin-left: 20px;
+            background-color: white;
+        }
+
+        #a76 {
+            /* border: solid red 2px; */
+            height: 496px;
+            margin-left: 20px;
+            background-color: white;
+        }
+
+        #a77 {
+            /* border: solid red 2px; */
+            margin-left: 20px;
+            height: 496px;
+            background-color: white;
+        }
+
+        #a80 {
+            background-color: #f0f4f7;
+            text-align: center;
+            height: 700px;
+            padding-top: 50px;
+        }
+
+
+
+
+
+        #a90 {
+            background-color: #f0f4f7;
+            height: 800px;
+        }
+
+        #a91 {
+            background-color: white;
+            width: 100%;
+            height: 720px;
+        }
+
+
+        .c90 {
+            float: left;
+            /* display: flex; */
+            justify-content: center;
+            /* box-shadow: 0px 0px 9px 5px; */
+            transform: translateY(40%);
+            transition: transform 0.4s ease;
+
+        }
+
+        .c90:nth-last-of-type(even) {
+            transform: translateY(100px);
+        }
+
+        .c90.w15 {
+            transform: translateY(0px);
+        }
+
+        #a92 {
+            margin-left: 110px;
+        }
+
+        #a93 {
+            padding-left: 50px;
+            padding-top: 90px;
+        }
+
+        #a94 {
+            color: #ff414d;
+        }
+
+        #a95 {
+            font-size: 50px;
+        }
+
+        #a96 {
+            width: 749px;
+            padding-top: 40px;
+            color: grey;
+        }
+
+        #a97 {
+            width: 749px;
+            padding-top: 40px;
+            color: grey;
+        }
+
+        #a98 {
+            float: left;
+            /* padding-top: 50px; */
+            margin-top: 50px;
+        }
+
+        .c91 {
+            background-color: #f0f4f7;
+            width: 187px;
+            height: 153px;
+            /* padding-top: 50px; */
+        }
+
+        .c92 {
+            background-color: #f0f4f7;
+            width: 187px;
+            height: 153px;
+            margin-left: 15px;
+            /* padding-top: 50px; */
+        }
+
+        .c93 {
+            background-color: #f0f4f7;
+            width: 187px;
+            height: 153px;
+            margin-left: 15px;
+            /* padding-top: 50px; */
+        }
+
+        .c94 {
+            background-color: #f0f4f7;
+            width: 187px;
+            height: 153px;
+            margin-left: 15px;
+            /* padding-top: 50px; */
+        }
+
+        .c95 {
+            font-size: 14px;
+            padding-left: 15px;
+            color: #ff414d;
+            margin-top: -16px;
+            /* margin-left: 15px; */
+        }
+
+        .c96 {
+            padding-left: 15px;
+            padding-top: 15px;
+        }
+
+        #a100 {
+            background-color: #f0f4f7;
+            width: 100%;
+            height: 500px;
+            padding-left: 114px;
+            padding-top: 20px;
+        }
+
+        #a101 {
+            color: #ff414d;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        #a102 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        #a103 {
+            padding-top: 80px;
+        }
+
+
+        #a104 {
+            float: left;
+            /* display: flex; */
+            /* justify-content: center; */
+            /* box-shadow: 0px 0px 9px 5px; */
+            transform: translateY(40%);
+            transition: transform 0.4s ease;
+
+        }
+
+        #a104:nth-last-of-type(even) {
+            transform: translateY(100px);
+        }
+
+        #a104.w16 {
+            transform: translateY(0px);
+        }
+
+        .c100 {
+            width: 408px;
+            height: 243px;
+            background-color: white;
+        }
+
+        .c101 {
+            width: 408px;
+            height: 243px;
+            background-color: white;
+            margin-left: 30px;
+        }
+
+        .c102 {
+            width: 408px;
+            height: 243px;
+            background-color: white;
+            margin-left: 30px;
+        }
+
+        #a105 {
+            margin-left: 182px;
+            border: solid #ff414d 2px;
+            background-color: #ff414d;
+            width: 46px;
+            height: 41px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius: 22px;
+            margin-top: -20px;
+            color: white;
+        }
+
+        .c103 {
+            color: grey;
+            padding-left: 34px;
+            padding-top: 20px;
+        }
+
+        #a106 {
+            float: left;
+
+        }
+
+        .c104 {
+            padding-left: 34px;
+            /* border-radius: 50px; */
+        }
+
+        #a107 {
+            padding-left: 45px;
+            font-size: 20px;
+        }
+
+        #a108 {
+            font-size: 13px;
+            color: #ff414d;
+        }
+
+        #a110 {
+            text-align: center;
+            float: left;
+            width: 14px;
+            height: 12px;
+            background-color: grey;
+            border-radius: 50%;
+            color: #f0f4f7;
+            padding-top: 10px;
+            cursor: pointer;
+        }
+
+        #a111 {
+            cursor: pointer;
+            float: left;
+            width: 14px;
+            height: 12px;
+            background-color: grey;
+            border-radius: 50%;
+            color: #f0f4f7;
+            margin-left: 5PX;
+            padding-top: 10px;
+        }
+
+        #a109 {
+            margin-top: 250px;
+            margin-left: 660px;
+        }
+
+        #a120 {
+            background-image: url(https://preview.colorlib.com/theme/directone/images/curls.png.webp);
+            height: 600px;
+        }
+
+        #a121 {
+            color: #ff414d;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        #a122 {
+            color: white;
+            text-align: center;
+            font-size: 50px;
+        }
+
+
+        #a123 {
+            float: left;
+            display: flex;
+            padding-left: 158px;
+            padding-top: 50px;
+            justify-content: center;
+            /* box-shadow: 0px 0px 9px 5px; */
+            transform: translateY(40%);
+            transition: transform 0.4s ease;
+
+        }
+
+        #a123:nth-last-of-type(even) {
+            transform: translateY(100px);
+        }
+
+        #a123.w15 {
+            transform: translateY(0px);
+        }
+
+        #a130 {
+            padding-top: 381px;
+            padding-left: 160px;
+            height: 800px;
+        }
+
+        .c130 {
+            float: left;
+            display: flex;
+            justify-content: center;
+            /* box-shadow: 0px 0px 9px 5px; */
+            transform: translateY(40%);
+            transition: transform 0.4s ease;
+
+        }
+
+        .c130:nth-last-of-type(even) {
+            transform: translateY(120px);
+        }
+
+        .c130.w15 {
+            transform: translateY(0px);
+        }
+
+        #a131 {
+            width: 275px;
+            height: 450px;
+            background-color: #f0f4f7;
+            justify-content: center;
+            /* margin-top: 50px; */
+        }
+        #a131:hover{
+            background-color: #ff414d;
+            color: white;
+        }
+        #a131:hover #a170 {
+            background-color: #ff414d;
+            color: white;
+        }
+        #a132:hover{
+            background-color: #ff414d;
+            color: white;
+        }
+        #a132:hover #a172{
+            background-color: #ff414d;
+            color: white;
+        }
+        #a133:hover{
+            background-color: #ff414d;
+            color: white;
+        }
+        #a133:hover #a173{
+            background-color: #ff414d;
+            color: white;
+        }
+        #a134:hover{
+            background-color: #ff414d;
+            color: white;
+        }
+        #a134:hover #a174{
+            background-color: #ff414d;
+            color: white;
+        }
+
+        #a132 {
+            width: 275px;
+            height: 450px;
+            background-color: #f0f4f7;
+            margin-left: 30px;
+        }
+
+        #a133 {
+            width: 275px;
+            height: 450px;
+            background-color: #f0f4f7;
+            margin-left: 30px;
+        }
+
+        #a134 {
+            width: 275px;
+            height: 450px;
+            background-color: #f0f4f7;
+            margin-left: 30px;
+        }
+
+        #a135 {
+            padding-top: 113px;
+            /* margin-right: 98px; */
+            font-size: 25px;
+            /* margin-left: 50px; */
+            position: absolute;
+        }
+
+        .c131 {
+            margin-top: 219px;
+            justify-content: center;
+            font-size: 15px;
+            color: grey;
+            position: absolute;
+            padding-left: 35px;
+            padding-right: 35px;
+        }
+        #a140
+        {
+            background-color: #f0f4f7;
+            height: 900px;
+            margin-top: 100px;
+        }
+        .c140{
+            justify-content: center;
+            padding-top: 100px;
+            display: flex;
+            margin-left: 700px;
+            color: #ff414d;
+            display: inline-block;
+            text-align: center;
+
+        }
+        .c141
+        {
+            font-size: 42px;
+            margin-left: 640px;
+        }
+        .c142
+        {
+            /* text-align: center; */
+            padding-left: 54px;
+            padding-top: 26px;
+            font-size: 15px;
+            color: grey;
+        }
+        .c144
+        {
+            color: #ff414d;
+        }
+        #a141
+        {
+            /* padding-left: 120px; */
+            margin-left: 120px;
+            background-color: white;
+            height: 500px;
+        }
+       
+        .c143 {
+            float: left;
+            /* display: flex; */
+            margin-top: 50px;
+            /* justify-content: center; */
+            /* box-shadow: 0px 0px 9px 5px; */
+            transform: translateY(40%);
+            transition: transform 0.4s ease;
+
+        }
+
+        .c143:nth-last-of-type(even) {
+            transform: translateY(100px);
+        }
+
+        .c143.w19 {
+            transform: translateY(0px);
+        }
+        #a143
+        {
+            margin-left: 30px;
+        }
+        .c145
+        {
+            padding-top: 15px;
+            color: black;
+        }
+        .c146
+        {
+            padding-top: 15px;
+            color: grey;
+        }
+        #a144
+        {
+            margin-left: 15px;
+            height: 500px;  background-color: white;
+        }
+        #a145
+        {
+            margin-left: 15px;
+            height: 500px;  background-color: white;
+        }
+        #a146
+        {
+            margin-left: 15px;
+            height: 500px;  background-color: white;
+        }
+        .c151
+        {
+            float: left;
+            /* border: solid red 2px; */
+        }
+        #a150
+        {
+            margin-top: 665px;
+            height: 650px;
+            padding-top:170px;
+            padding-left: 130px;
+            background-color: #10151c;
+            color: white;
+        }
+        #a151
+      {
+        color: white;
+        width: 350px;
+        height: 300px;
+      }
+        #a152
+      {
+        color: white;
+        margin-left: 50px;
+      }
+        #a153
+      {
+        color: white;
+        margin-left: 50px;
+      }
+        #a154
+      {
+        color: whrgba(255,255,255,.7);
+        margin-left: 50px;
+      }
+        #a155
+      {
+        color: white;
+        margin-left: 50px;
+      }
+      #a156
+      {
+        color: #ff414d;
+      }
+      #a157
+      {
+        padding-left: 24px;
+        /* text-align: center;
+        justify-content: center; */
+      }
+      #a158
+      {
+        color: white;
+        background-color: #ff414d;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        justify-content: center;
+        /* text-align: center; */
+        margin-top: 40px;
+        align-items: center;
+        display: flex;
+        float: left;
+        margin-left: 30px;
+      }
+      .c152
+      {
+        color: white;
+      }
+      .c153
+      {
+        font-size: 10px;
+      }
+      .c154
+      {
+        font-size: 17px;
+        color: rgba(255,255,255,.7);
+      }
+      .c155{
+        color: rgba(255,255,255,.7);
+        padding-top: 45px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .c156{
+        color: rgba(255,255,255,.7);
+        /* font-size: 20px; */
+        font-size: 15px;
+        margin-top: 31px;
+      }
+      #a160
+      {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-color: #0c1016;
+        color: grey;
+        height: 200px;
+        font-family: roboto;
+        font-size: 16px;
+      }
+      .c160
+      {
+        color: #ff414d;
+        font-size: 16px;
+      }
+      #a162
+      {
+        color: gray;
+      }
+      #a161
+      {
+        color: #ff414d;
+      }
+      #a170
+      {
+        color: black;
+      }
+    </style>
+</head>
+
+<body>
+    <div id="a14">
+        <div id="a12" class="c11">Free Call<label id="a13">+1 234 456 78910</label></div>
+        <div id="a12" class="c12">Facebook</div>
+        <div id="a12" class="c13">Twitter</div>
+        <div id="a12" class="c14">Dribble</div>
+    </div>
+    <div id="a11"
+        style="background-image: url(https://preview.colorlib.com/theme/directone/images/xbg_1.jpg.pagespeed.ic.EiRxZF1ff8.webp); height: 790px; background-attachment: fixed;  background-size: cover;">
+        <div id="a15">
+            <div id="a16" class="c15"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAE1F7El9qNugtFZBBsBBzjE4FTlDOycn2M3cXF4FIF39ElZVE-WGa&usqp=CAE&s">
+            </div>
+            <div id="a16" class="c16">
+                <h1>Directone</h1><BR>
+                <div class="c23">DIRECTORY AAND LISTING</div>
+            </div>
+
+            <div id="a16" class="c17">HOME </div>
+            <div id="a16" class="c18">ABOUT</div>
+            <div id="a16" class="c19">LISTING</div>
+            <div id="a16" class="c20">BLOG</div>
+            <div id="a16" class="c21">CONTRACTS</div>
+            <div id="a16" class="c22"><BUTTON class="c24">+ADD LISTING</BUTTON></div>
+            <br><label id="a19">Let's Explore Your <br>Awesome City</label><br>
+            <span style="color:white;margin-left: 504px;">Find great places to stay, eat, shop, or visit from local
+                experts.</span>
+            <div id="a20">
+                <span id="a25"><i class="fa fa-search"></i><input id="a21"
+                        placeholder="What are you looking for?"></span>
+                <i class="fa fa-map-marker" style="font-size:24px"></i><input id="a22" placeholder="Search Location">
+                <span id="a23"><span id="a162" class="fa fa-chevron-down"></span><span>All Categories</span></span>
+            </div>
+            <div id="a24"><i class="fa fa-search"></i><span id="a26">&nbsp;&nbsp;Search</span></div>
+        </div>
+
+    </div>
+    <div id="a30">
+        <div id="a31" class="c30"><img
+                src="https://img.freepik.com/premium-vector/restaurant-logo-design-template_79169-56.jpg?size=338&ext=jpg&ga=GA1.2.1562294483.1662638071"
+                width="150px" height="150px"><br>Food & Drinks<br><span class="c31">103</span><span class="c32">
+                LISTING</span></div>
+        <div id="a32" class="c30"><img
+                src="https://img.freepik.com/free-vector/hotel-branding-identity-corporate-vector-logo-design-template_460848-14015.jpg?size=626&ext=jpg&ga=GA1.2.1562294483.1662638071"
+                width="150px" height="150px"><br>Hotels<br><span class="c31">40</span><span class="c32"> LISTING</span>
+        </div>
+        <div id="a33" class="c30"><img
+                src="https://img.freepik.com/free-psd/torn-hole-white-wall-paper-yellow-background_24972-376.jpg?size=626&ext=jpg&ga=GA1.2.1562294483.1662638071"
+                width="150px" height="150px"><br>Shopping<br><span class="c31">100</span><span class="c32">
+                LISTING</span></div>
+        <div id="a34" class="c30"><img
+                src="https://img.freepik.com/free-vector/pure-organic-natural-green-aloe-vera-leaves-healthy-treatment-label-banners-with-text_1284-9400.jpg?size=338&ext=jpg&ga=GA1.2.1562294483.1662638071"
+                width="150px" height="150px"><br>Beauty<br><span class="c31">36</span><span class="c32"> LISTING</span>
+        </div>
+        <div id="a35" class="c30"><img
+                src="https://img.freepik.com/free-vector/branding-identity-corporate-healthy-life-vector-logo-design_460848-13633.jpg?size=338&ext=jpg&ga=GA1.2.1562294483.1662638071"
+                width="150px" height="150px"><br>Fitness<br><span class="c31">30</span><span class="c32"> LISTING</span>
+        </div>
+        <div id="a36" class="c30"><img
+                src="https://img.freepik.com/free-photo/neon-sign-bar-with-image-cocktail_23-2148184280.jpg?size=338&ext=jpg&ga=GA1.2.1562294483.1662638071"
+                width="150px" height="150px"><br>Bar & Club<br><span class="c31">12</span><span class="c32">
+                LISTING</span></div>
+
+        <script>
+            let x12 = document.querySelectorAll(".c30");
+            window.addEventListener("scroll", fff);
+
+
+            function fff() {
+                let y12 = window.innerHeight;
+                x12.forEach(c30 => {
+                    let z12 = c30.getBoundingClientRect().top;
+                    if (z12 < y12) {
+                        c30.classList.add("w11");
+                    }
+                    else { c30.classList.remove("w11") }
+                });
+            }
+
+            fff();
+        </script>
+
+
+        <div id="a40" class="c40"><img
+                src="https://png.pngtree.com/element_our/png/20180926/wolf-bolt-emblem-mascot-head-silhouette-sport-logotype-template-for-png_112996.jpg"
+                width="150px" height="150px"><br>Games<br><span class="c31">103</span><span class="c32"> LISTING</span>
+        </div>
+        <div id="a41" class="c40"><img
+                src="https://png.pngtree.com/element_our/png/20181206/placeholder-vector-icon-png_262268.jpg"
+                width="150px" height="150px"><br>Hotels<br><span class="c31">40</span><span class="c32"> Place</span>
+        </div>
+        <div id="a42" class="c40"><img
+                src="https://png.pngtree.com/png-vector/20210121/ourmid/pngtree-circus-text-with-tend-png-image_2756301.jpg"
+                width="150px" height="150px"><br>Circus<br><span class="c31">100</span><span class="c32"> LISTING</span>
+        </div>
+        <div id="a43" class="c40"><img
+                src="https://png.pngtree.com/png-vector/20220610/ourmid/pngtree-vector-theatre-masks-icon-isolated-on-white-background-png-image_4953952.png"
+                width="150px" height="150px"><br>Theater<br><span class="c31">36</span><span class="c32"> LISTING</span>
+        </div>
+        <div id="a44" class="c40"><img
+                src="https://png.pngtree.com/png-vector/20200216/ourmid/pngtree-car-silhouette-design-for-printing-purpose-illustration-sport-car-design-vector-png-image_2148234.jpg"
+                width="150px" height="150px"><br>Sports<br><span class="c31">30</span><span class="c32"> LISTING</span>
+        </div>
+        <div id="a45" class="c40"><img src="https://png.pngtree.com/element_our/sm/20180419/sm_5ad85cd7d9fa9.jpg"
+                width="150px" height="150px"><br>Health<br><span class="c31">12</span><span class="c32"> LISTING</span>
+        </div>
+
+        <script>
+            let x13 = document.querySelectorAll(".c40");
+            window.addEventListener("scroll", fff);
+
+
+            function fff() {
+                let y13 = window.innerHeight;
+                x13.forEach(c40 => {
+                    let z13 = c40.getBoundingClientRect().top;
+                    if (z13 < y13) {
+                        c40.classList.add("w12");
+                    }
+                    else { c40.classList.remove("w12") }
+                });
+            }
+
+            fff();
+        </script>
+    </div>
+    <div id="a50">
+        <div id="a51">Our Listing</div>
+        <div id="a52">Popular Listing</div>
+        <div id="a57">
+            <div id="a53" class="c50"><img
+                    src="https://preview.colorlib.com/theme/directone/images/xlist-1.jpg.pagespeed.ic.yWFT-XXoeF.webp"
+                    width="305px" height="250px"><BR><label class="c51">Food and Drinks</label><br><label
+                    class="c52">Japnees Resturant</label><br><label class="c53"> Suite 721 New York NY
+                    10016</label><br><label class="c54">+00 123 456 7890</label>
+                <hr><label class="c55"> Review 5.0/5 (100)</label>
+            </div>
+            <div id="a54" class="c50"><img
+                    src="https://preview.colorlib.com/theme/directone/images/xlist-2.jpg.pagespeed.ic.pIcYc1znqQ.webp"
+                    width="305px" height="250px"><BR><label class="c51">Hotel</label><br><label class="c52">Harbor
+                    Lights Hotel</label><br><label class="c53"> Suite 721 New York NY 10016</label><br><label
+                    class="c54">+00 123 456 7890</label>
+                <hr><label class="c55"> Review 5.0/5 (100)</label>
+            </div>
+            <div id="a55" class="c50"><img
+                    src="https://preview.colorlib.com/theme/directone/images/xlist-3.jpg.pagespeed.ic.QzG5J15iLU.webp"
+                    width="305px" height="250px"><BR><label class="c51">SHOPPING</label><br><label class="c52">MS Center
+                    Mall of Asia</label><br><label class="c53"> Suite 721 New York NY 10016</label><br><label
+                    class="c54">+00 123 456 7890</label>
+                <hr><label class="c55"> Review 5.0/5 (100)</label>
+            </div>
+            <div id="a56" class="c50"><img
+                    src="https://preview.colorlib.com/theme/directone/images/xlist-4.jpg.pagespeed.ic.ffGapk8Vwm.webp"
+                    width="305px" height="250px"><BR><label class="c51">GYM FITNESS</label><br><label class="c52">Maxout
+                    Fitness Gym</label><br><label class="c53"> Suite 721 New York NY 10016</label><br><label
+                    class="c54">+00 123 456 7890</label>
+                <hr><label class="c55"> Review 5.0/5 (100)</label>
+            </div>
+            <script>
+                let x14 = document.querySelectorAll(".c50");
+                window.addEventListener("scroll", ff);
+
+
+                function ff() {
+                    let y14 = window.innerHeight;
+                    x14.forEach(c50 => {
+                        let z14 = c50.getBoundingClientRect().top;
+                        if (z14 < y14) {
+                            c50.classList.add("w13");
+                        }
+                        else { c50.classList.remove("w13") }
+                    });
+                }
+
+                ff();
+            </script>
+        </div>
+
+
+    </div>
+    <div id="a60">
+        <div id="a61" class="c60"><img
+                src="https://preview.colorlib.com/theme/directone/images/xintro.jpg.pagespeed.ic.0xEOkscWMx.webp"
+                width="474px" height="250px"></div>
+
+        <div id="a62" class="c60">
+            <p class="c61">SPECIAL OFFERS<br>
+            <h3 class="c62">We Have Special Offers Every<br> Now and Then</h3 class="c62">
+            </p>
+        </div>
+        <div id="a63" class="c60"><button class="c63">Show Special Orders</button></div>
+
+    </div>
+    <div id="a70">
+        <div id="a71">Our Listing</div>
+        <div id="a72"><b>Popular Listing</b></div>
+        <div id="a73">
+            <div id="a74" class="c70"><img
+                    src="https://preview.colorlib.com/theme/directone/images/xlist-5.jpg.pagespeed.ic.it6BFIJpJl.webp"
+                    width="305px" height="250px"><BR><label class="c71">Food and Drinks</label><br><label
+                    class="c72">Japnees Resturant</label><br><label class="c73"> Suite 721 New York NY
+                    10016</label><br><label class="c74">+00 123 456 7890</label>
+                <hr><label class="c75"> Review 5.0/5 (100)</label>
+            </div>
+            <div id="a75" class="c70"><img
+                    src="https://preview.colorlib.com/theme/directone/images/xlist-6.jpg.pagespeed.ic.YpfXEEmxqO.webp"
+                    width="305px" height="250px"><BR><label class="c71">Hotel</label><br><label class="c74">Harbor
+                    Lights Hotel</label><br><label class="c73"> Suite 721 New York NY 10016</label><br><label
+                    class="c72">+00 123 456 7890</label>
+                <hr><label class="c75"> Review 5.0/5 (100)</label>
+            </div>
+            <div id="a76" class="c70"><img
+                    src="https://preview.colorlib.com/theme/directone/images/xlist-7.jpg.pagespeed.ic.3ERdMRZgJ2.webp"
+                    width="305px" height="250px"><BR><label class="c71">SHOPPING</label><br><label class="c74">MS Center
+                    Mall of Asia</label><br><label class="c73"> Suite 721 New York NY 10016</label><br><label
+                    class="c72">+00 123 456 7890</label>
+                <hr><label class="c75"> Review 5.0/5 (100)</label>
+            </div>
+            <div id="a77" class="c70"><img
+                    src="https://preview.colorlib.com/theme/directone/images/xlist-8.jpg.pagespeed.ic.r3287Q7ZMK.webp"
+                    width="305px" height="250px"><BR><label class="c71">GYM FITNESS</label><br><label class="c74">Maxout
+                    Fitness Gym</label><br><label class="c73"> Suite 721 New York NY 10016</label><br><label
+                    class="c72">+00 123 456 7890</label>
+                <hr><label class="c75"> Review 5.0/5 (100)</label>
+            </div>
+            <script>
+                let x15 = document.querySelectorAll(".c70");
+                window.addEventListener("scroll", ff);
+
+
+                function ff() {
+                    let y15 = window.innerHeight;
+                    x15.forEach(c70 => {
+                        let z15 = c70.getBoundingClientRect().top;
+                        if (z15 < y15) {
+                            c70.classList.add("w14");
+                        }
+                        else { c70.classList.remove("w14") }
+                    });
+                }
+
+                ff();
+            </script>
+        </div>
+    </div>
+    <div id="a80">
+        <div id="a74" class="c70"><img
+                src="https://preview.colorlib.com/theme/directone/images/xlist-9.jpg.pagespeed.ic.Z6Vt47CPGN.webp"
+                width="305px" height="250px"><BR><label class="c71">Food and Drinks</label><br><label
+                class="c72">Japnees Resturant</label><br><label class="c73"> Suite 721 New York NY
+                10016</label><br><label class="c74">+00 123 456 7890</label>
+            <hr><label class="c75"> Review 5.0/5 (100)</label>
+        </div>
+        <div id="a75" class="c70"><img
+                src="https://preview.colorlib.com/theme/directone/images/xlist-10.jpg.pagespeed.ic.foWehAwTAo.webp  "
+                width="305px" height="250px"><BR><label class="c71">Hotel</label><br><label class="c74">Harbor
+                Lights Hotel</label><br><label class="c73"> Suite 721 New York NY 10016</label><br><label
+                class="c72">+00 123 456 7890</label>
+            <hr><label class="c75"> Review 5.0/5 (100)</label>
+        </div>
+        <div id="a76" class="c70"><img
+                src="https://preview.colorlib.com/theme/directone/images/xlist-11.jpg.pagespeed.ic.QhrTdZVZRL.webp"
+                width="305px" height="250px"><BR><label class="c71">SHOPPING</label><br><label class="c74">MS Center
+                Mall of Asia</label><br><label class="c73"> Suite 721 New York NY 10016</label><br><label
+                class="c72">+00 123 456 7890</label>
+            <hr><label class="c75"> Review 5.0/5 (100)</label>
+        </div>
+        <div id="a77" class="c70"><img
+                src="https://preview.colorlib.com/theme/directone/images/xlist-12.jpg.pagespeed.ic.zu5S_s4zvP.webp"
+                width="305px" height="250px"><BR><label class="c71">GYM FITNESS</label><br><label class="c74">Maxout
+                Fitness Gym</label><br><label class="c73"> Suite 721 New York NY 10016</label><br><label class="c72">+00
+                123 456 7890</label>
+            <hr><label class="c75"> Review 5.0/5 (100)</label>
+        </div>
+        <script>
+            let x16 = document.querySelectorAll(".c70");
+            window.addEventListener("scroll", ff);
+
+
+            function ff() {
+                let y16 = window.innerHeight;
+                x16.forEach(c70 => {
+                    let z16 = c70.getBoundingClientRect().top;
+                    if (z16 < y16) {
+                        c70.classList.add("w14");
+                    }
+                    else { c70.classList.remove("w14") }
+                });
+            }
+
+            ff();
+        </script>
+    </div>
+    <div id="a90">
+        <div id="a91">
+            <div id="a92" class="c90"><img
+                    src="https://preview.colorlib.com/theme/directone/images/xabout.jpg.pagespeed.ic.TFuz3vcahY.webp"
+                    height="720px" width="513px"> </div>
+            <div id="a93" class="c90">
+                <div id="a94"><b>Welcome to Directon</b><br></div>
+                <div id="a95"><b>Directone A Directory & Listing</b><br></div>
+                <div id="a96">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                    there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+                    Semantics, a large language ocean.</div>
+                <div id="a97">A small river named Duden flows by their place and supplies it with the necessary
+                    regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </div>
+                <script>
+                    let x19 = document.querySelectorAll(".c90");
+                    window.addEventListener("scroll", ff);
+
+
+                    function ff() {
+                        let y19 = window.innerHeight;
+                        x19.forEach(c90 => {
+                            let z19 = c90.getBoundingClientRect().top;
+                            if (z19 < y19) {
+                                c90.classList.add("w15");
+                            }
+                            else { c90.classList.remove("w15") }
+                        });
+                    }
+
+                    ff();
+                </script>
+                <div id="a98" class="c91">
+                    <h1 class="c96">50</h1><br>
+                    <p class="c95">YEARS OF <br>EXPERIENCED</p>
+                </div>
+                <div id="a98" class="c92">
+                    <h1 class="c96">210k+</h1><br>
+                    <p class="c95">TOTAL LISTING </p>
+                </div>
+                <div id="a98" class="c93">
+                    <h1 class="c96">450</h1><br>
+                    <p class="c95">COMPANY STAF</p>
+                </div>
+                <div id="a98" class="c94">
+                    <h1 class="c96">100</h1><br>
+                    <p class="c95">HAPPY PEOPLE</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="a100">
+        <div id="a101"><b>TESTIMONIAL</b></div>
+        <div id="a102"><b>Happy People</b></div>
+        <div id="a103">
+            <div id="a104" class="c100"><span id="a105" class="fa fa-quote-left"></span>
+                <div class="c103">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there live the blind texts.</div> <br>
+                <div id="a106" class="c104"><img
+                        src="https://preview.colorlib.com/theme/directone/images/xperson_1.jpg.pagespeed.ic.a2MnMHMs44.webp"
+                        width="60px" height="60px"></div>
+                <div id="a106" class="c105">
+                    <div id="a107"><b>Roger Scott</b><br><label id="a108">MARKETING MANAGER</label></div>
+                </div>
+            </div>
+            <div id="a104" class="c101"><span id="a105" class="fa fa-quote-left"></span>
+                <div class="c103">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there live the blind texts.</div> <br>
+                <div id="a106" class="c104"><img
+                        src="https://preview.colorlib.com/theme/directone/images/xperson_2.jpg.pagespeed.ic.Xrdu_nPZRp.webp"
+                        width="60px" height="60px"></div>
+                <div id="a106" class="c105">
+                    <div id="a107"><b>Roger Scott</b><br><label id="a108">MARKETING MANAGER</label></div>
+                </div>
+            </div>
+            <div id="a104" class="c102"><span id="a105" class="fa fa-quote-left"></span>
+                <div class="c103">Far far away, behind the word mountains, far from the countries Vokalia and
+                    Consonantia, there live the blind texts.</div><br>
+                <div id="a106" class="c104"><img
+                        src="https://preview.colorlib.com/theme/directone/images/xperson_3.jpg.pagespeed.ic.Cln-jaM1jK.webp"
+                        width="60px" height="60px"></div>
+                <div id="a106" class="c105">
+                    <div id="a107"><b>Roger Scott</b><br><label id="a108">MARKETING MANAGER</label></div>
+                </div>
+            </div>
+            <script>
+                let x18 = document.querySelectorAll("#a104");
+                window.addEventListener("scroll", ff);
+
+
+                function ff() {
+                    let y18 = window.innerHeight;
+                    x18.forEach(a104 => {
+                        let z18 = a104.getBoundingClientRect().top;
+                        if (z18 < y18) {
+                            a104.classList.add("w16");
+                        }
+                        else { a104.classList.remove("w16") }
+                    });
+                }
+
+                ff();
+            </script>
+        </div><br>
+        <div id="a109">
+            <div id="a110" class="c107">a</div>
+            <div id="a111" class="c107">b</div>
+        </div>
+    </div>
+    <div id="a120">
+        <div id="a121"><b>LET'S FIND OUT</b></div>
+        <div id="a122"><b>How It Works</b></div>
+        <div id="a123"><img
+                src="https://preview.colorlib.com/theme/directone/images/xbg_2.jpg.pagespeed.ic.sKkOP_bLL8.webp"
+                width="1200px" height="600px"><span class="ion-ios-play"></span></div>
+        <script>
+            let x17 = document.querySelectorAll("#a123");
+            window.addEventListener("scroll", ff);
+
+
+            function ff() {
+                let y17 = window.innerHeight;
+                x17.forEach(a123 => {
+                    let z17 = a123.getBoundingClientRect().top;
+                    if (z17 < y17) {
+                        a123.classList.add("w15");
+                    }
+                    else { a123.classList.remove("w15") }
+                });
+            }
+
+            ff();
+        </script>
+    </div>
+
+    <div id="a130">
+        <div id="a131" class="c130"><img
+                src="https://preview.colorlib.com/theme/directone/images/xperson_3.jpg.pagespeed.ic.Cln-jaM1jK.webp"
+                width="100px" height="100px" style="margin-left:18px ; display: inline-block; position: absolute;">
+            <div id="a135">1. Choose A <br>Category</div><br>
+            <div class="c131"><label id="a170">small river named Duden flows by their place and supplies it with the necessary
+                regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</label>
+            </div>
+            <!-- <script>$(document).ready(function(){$("#a131").hover(function(){$("#a170").css("color","white");});});</script> -->
+        </div>
+        <div id="a132" class="c130"><img
+                src="https://preview.colorlib.com/theme/directone/images/xperson_3.jpg.pagespeed.ic.Cln-jaM1jK.webp"
+                width="100px" height="100px" style="margin-left:18px ; display: inline-block; position: absolute;">
+            <div id="a135">1. Choose A <br>Category</div><br>
+            <div class="c131"><label id="a172">A small river named Duden flows by their place and supplies it with the necessary
+                regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</label>
+                <!-- <script>$(document).ready(function(){$("#a132").hover(function(){$("#a172").css("color","white");});});</script> -->
+            </div>
+        </div>
+        <div id="a133" class="c130"><img
+                src="https://preview.colorlib.com/theme/directone/images/xperson_3.jpg.pagespeed.ic.Cln-jaM1jK.webp"
+                width="100px" height="100px" style="margin-left:18px ; display: inline-block; position: absolute;">
+            <div id="a135">1. Choose A <br>Category</div><br>
+            <div class="c131"><label id="a173">A small river named Duden flows by their place and supplies it with the necessary
+                regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</label>
+                <!-- <script>$(document).ready(function(){$("#a133").hover(function(){$("#a173").css("color","white");});});</script> -->
+            </div>
+        </div>
+        <div id="a134" class="c130"><img
+                src="https://preview.colorlib.com/theme/directone/images/xperson_3.jpg.pagespeed.ic.Cln-jaM1jK.webp"
+                width="100px" height="100px" style="margin-left:18px ; display: inline-block; position: absolute;">
+            <div id="a135">1. Choose A <br>Category</div><br>
+            <div class="c131"><label id="a174">A small river named Duden flows by their place and supplies it with the necessary
+                regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</lable>
+                <!-- <script>$(document).ready(function(){$("#a134").hover(function(){$("#a174").css("color","white");});});</script> -->
+            </div>
+        </div><br>
+
+
+        <script>
+            let x11 = document.querySelectorAll(".c130");
+            window.addEventListener("scroll", ff);
+
+
+            function ff() {
+                let y11 = window.innerHeight;
+                x11.forEach(c130 => {
+                    let z11 = c130.getBoundingClientRect().top;
+                    if (z11 < y11) {
+                        c130.classList.add("w15");
+                    }
+                    else { c130.classList.remove("w15") }
+                });
+            }
+
+            ff();
+        </script>
+    </div>
+
+
+    <div id="a140">
+            <div class="c140"><b>OUR BLOG</b></div>
+            <div class="c141"><b>Recent Blog</b></div>
+            <div id="a142">
+            <div id="a141" class="c143"><img src="https://preview.colorlib.com/theme/directone/images/ximage_1.jpg.pagespeed.ic.QnA6DpkzOF.webp
+                "width="330px" height="240px"><div class="c142"><b>DEC. 05, 2020 &nbsp<span class="c144">3 COMMENTS</b</span><br><h5 class="c145">Explore The Best <br>Restaurant in New York</h5><br><h6 class="c146">A small river named Duden flows<br> by their place and supplies it with<br> the necessary regelialia.</h6></div></div>
+            <div id="a144" class="c143"><img src="https://preview.colorlib.com/theme/directone/images/ximage_2.jpg.pagespeed.ic._nvhursf8z.webp
+                "width="330px" height="240px"><div class="c142"><b>DEC. 05, 2020 &nbsp<span class="c144">3 COMMENTS</b</span><br><h5 class="c145">Explore The Best <br>Restaurant in New York</h5><br><h6 class="c146">A small river named Duden flows<br> by their place and supplies it with<br> the necessary regelialia.</h6></div></div>
+            <div id="a145" class="c143"><img src="https://preview.colorlib.com/theme/directone/images/ximage_3.jpg.pagespeed.ic.7IAJXQIWQY.webp
+                "width="330px" height="240px"><div class="c142"><b>DEC. 05, 2020 &nbsp<span class="c144">3 COMMENTS</b</span><br><h5 class="c145">Explore The Best <br>Restaurant in New York</h5><br><h6 class="c146">A small river named Duden flows<br> by their place and supplies it with<br> the necessary regelialia.</h6></div></div>
+            <div id="a146" class="c143"><img src="https://preview.colorlib.com/theme/directone/images/ximage_4.jpg.pagespeed.ic.cjWffy-ATT.webp
+                "width="330px" height="240px"><div class="c142"><b>DEC. 05, 2020 &nbsp<span class="c144">3 COMMENTS</b</span><br><h5 class="c145">Explore The Best <br>Restaurant in New York</h5><br><h6 class="c146">A small river named Duden flows<br> by their place and supplies it with<br> the necessary regelialia.</h6></div></div>
+
+
+                    <script>
+                        let x20 = document.querySelectorAll(".c143");
+                        window.addEventListener("scroll", ff);
+            
+            
+                        function ff() {
+                            let y20 = window.innerHeight;
+                            x20.forEach(c143 => {
+                                let z20 = c143.getBoundingClientRect().top;
+                                if (z20< y20) {
+                                    c143.classList.add("w19");
+                                }
+                                else { c143.classList.remove("w19") }
+                            });
+                        }
+            
+                        ff();
+                    </script>
+    </div>
+
+
+    <footer id="a150">
+        <div id="a151" class="c151"><h3 class="c152">Directone</h3><h5 class="c153">DIRECTORY AND LISTING</h5><br><h5 class="c154">A small river named Duden flows by their place and supplies it with the necessary regelialia.</h5><span id="a158" class="fa fa-twitter"></span><span id="a158" class="fa fa-facebook"></span><span id="a158" class="fa fa-facebook"></span></div>
+
+        <div id="a152" class="c151"><h3>Explore</h3><h5 class="c155"><span class="fa fa-chevron-right mr-2">&nbsp;&nbsp;</span>About  Us</h5><h5 class="c156"><span class="fa fa-chevron-right mr-2">&nbsp;&nbsp;</span>Account</h5><h5 class="c156"><span class="fa fa-chevron-right mr-2">&nbsp;&nbsp;</span>Listing</h5><h5 class="c156"><span class="fa fa-chevron-right mr-2">&nbsp;&nbsp;</span>Pricing Packages</h5><h5 class="c156"><span class="fa fa-chevron-right mr-2">&nbsp;&nbsp;</span>Pricing Packages</h5></div>
+
+        <div id="a153" class="c151"><h3>Quick Links</h3><h5 class="c155"><span class="fa fa-chevron-right mr-2">&nbsp;&nbsp;</span>Contact Us</h5><h5 class="c156"><span class="fa fa-chevron-right mr-2">&nbsp;&nbsp;</span>Terms & Conditions</h5><h5 class="c156"><span class="fa fa-chevron-right mr-2">&nbsp;&nbsp;</span>Privacy</h5><h5 class="c156"><span class="fa fa-chevron-right mr-2">&nbsp;&nbsp;</span>Feedbacks</h5></div>
+
+        <div id="a154" class="c151"><h3>Categories</h3><h5 class="c155"><span class="fa fa-chevron-right mr-2">&nbsp;&nbsp;</span>Food & Drinks</h5><h5 class="c156"><span class="fa fa-chevron-right mr-2">&nbsp;&nbsp;</span>Hotels</h5><h5 class="c156"><span class="fa fa-chevron-right mr-2">&nbsp;&nbsp;</span>Shopping</h5><h5 class="c156"><span class="fa fa-chevron-right mr-2">&nbsp;&nbsp;</span>Beauty</h5><h5 class="c156"><span class="fa fa-chevron-right mr-2">&nbsp;&nbsp;</span>Fitness</h5><h5 class="c156"><span class="fa fa-chevron-right mr-2">&nbsp;&nbsp;</span>Bar & Club</h5></div>
+
+        <div id="a155" class="c151"><h3>Have a Questions</h3><h5 class="c155"><span id="a156" class="icon fa fa-map marker"></span>	<span id="a157">203 Fake St. Mountain View,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; San Francisco, California, USA</span></h5><h5 class="c156"><span id="a156" class="icon fa fa-phone"></span><span id="a157">Hotels</span></h5><h5 class="c156"><span id="a156" class="icon fa fa-paper-plane pr-4"></span><span id="a157">Shopping</span></h5></div>
+    </footer>
+
+    <div id="a160">Copyright ©2022 All rights reserved | This template is made with &nbsp;<span id="a161" class="fa fa-heart color-danger"></span>&nbsp;by&nbsp;<span class="c160">NIKKU    </span></div>
+</body>
+
+</html>
